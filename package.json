@@ -1,0 +1,24 @@
+{
+  "name": "algorand",
+  "version": "1.0.9",
+  "description": "algorand on metamask",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn build && yarn serve",
+    "postinstall": "patch-package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulfears/snapalgo.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.17.2",
+    "algosdk": "^1.14.0"
+  },
+  "devDependencies": {
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0"
+  }
+}
